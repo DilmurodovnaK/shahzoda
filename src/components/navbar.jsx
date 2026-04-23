@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <nav className="navbar w-full xl:px-10 lg:px-4 md:px-5">
       <div className="nav-container flex">
-        <a className="nav-logo">
+        <a href="#home" className="nav-logo">
         <img src={logo} alt="" width={100} height={100}/>
         </a>
 
@@ -23,22 +23,22 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-links" onClick={handleClick}>
+            <a href="#home" className="nav-links" onClick={handleClick}>
             Men haqimda
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-links" onClick={handleClick}>
+            <a href="#home" className="nav-links" onClick={handleClick}>
              Servis
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-links" onClick={handleClick}>
+            <a href="#home" className="nav-links" onClick={handleClick}>
               Blog
             </a>
           </li>
            <li className="nav-item">
-            <a className="nav-links" onClick={handleClick}>
+            <a href="#home" className="nav-links" onClick={handleClick}>
              Контакты
             </a>
           </li>

@@ -45,17 +45,17 @@ const Footer  = () =>  {
               </button>
             </li>
             <li>
-              <a href="" className="hover:text-white">
+              <a href="#home" className="hover:text-white">
                Servis
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-white">
+              <a href="#home" className="hover:text-white">
                 Blog
               </a>
             </li>
             <li>
-              <a href="" className="hover:text-white">
+              <a href="#home" className="hover:text-white">
              Bog`lanish
               </a>
             </li>
@@ -64,12 +64,12 @@ const Footer  = () =>  {
         <div>
           <h4 className="text-xl font-semibold text-[#F7EF8A] mb-4">Servislar</h4>
           <ul className="space-y-2 text-gray-400">
-            <li><a href="" className="hover:text-white">Pedagog</a></li>
-            <li><a href="" className="hover:text-white">Dizayner</a></li>
-            <li><a href="" className="hover:text-white">Rassom</a></li>
-            <li><a href="" className="hover:text-white">Libos Dizayneri</a></li>
-            <li><a href="" className="hover:text-white">Qalam Ustasi</a></li>
-            <li><a href="" className="hover:text-white">Libos Rassomi</a></li>
+            <li><a href="#home" className="hover:text-white">Pedagog</a></li>
+            <li><a href="#home" className="hover:text-white">Dizayner</a></li>
+            <li><a href="#home" className="hover:text-white">Rassom</a></li>
+            <li><a href="#home" className="hover:text-white">Libos Dizayneri</a></li>
+            <li><a href="#home" className="hover:text-white">Qalam Ustasi</a></li>
+            <li><a href="#home" className="hover:text-white">Libos Rassomi</a></li>
           </ul>
         </div>
 
@@ -79,7 +79,7 @@ const Footer  = () =>  {
           <ul className="space-y-2 text-gray-400">
             <li><a href="https://t.me/shakhzade_f"className="hover:text-white">Telegram</a></li>
             <li><a href="https://www.instagram.com/shakhzade_f?igsh=d2NrMW44ZHNlMnlx" className="hover:text-white">Instagram</a></li>
-            <li><a href="" className="hover:text-white">+998 971073404</a></li>
+            <li><a href="#home" className="hover:text-white">+998 971073404</a></li>
          
           </ul>
         </div>
@@ -101,16 +101,16 @@ const Footer  = () =>  {
             </button>
           </form>
           <div className="flex space-x-4 mt-6">
-            <a href="" className="text-gray-400 hover:text-white">
+            <a href="#home" className="text-gray-400 hover:text-white">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="" className="text-gray-400 hover:text-white">
+            <a href="#home" className="text-gray-400 hover:text-white">
               <i className="fab fa-twitter"></i>
             </a>
-            <a href="" className="text-gray-400 hover:text-white">
+            <a href="#home" className="text-gray-400 hover:text-white">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="" className="text-gray-400 hover:text-white">
+            <a href="#home" className="text-gray-400 hover:text-white">
               <i className="fab fa-github"></i>
             </a>
           </div>
