@@ -7,7 +7,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const toggleDropdown = () => setIsOpen(!isOpen);
+  const toggleDropdown = () => {
+  setIsOpen(prev => !prev);
+};
 
   return (
     <nav className="navbar w-full xl:px-10 lg:px-4 md:px-5">
@@ -75,7 +77,7 @@ const Navbar = () => {
               <ul className="py-2 font-medium" role="menu">
                 <li>
                   <a
-                    href="#"
+                    href="#bla"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
@@ -129,7 +131,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#bb"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white"
                     role="menuitem"
                   >
