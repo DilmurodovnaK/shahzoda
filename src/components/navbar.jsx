@@ -7,9 +7,9 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const toggleDropdown = () => {
-  setIsOpen(prev => !prev);
-};
+ <button onClick={() => setIsOpen(!isOpen)}>
+  Til tanlash
+</button>
 
   return (
     <nav className="navbar w-full xl:px-10 lg:px-4 md:px-5">
